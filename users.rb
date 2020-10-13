@@ -8,7 +8,7 @@ list = Array.new
 
 user = User.new
 
-2.times do || 
+10.times do || 
 
 puts "Name:"
 user.name = gets.chomp.to_s
