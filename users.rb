@@ -6,8 +6,6 @@
 
 	list = []
 
-	#user = User.new
-
 	USERS_NUMBERS = 10
 
 	while list.size < USERS_NUMBERS do 
