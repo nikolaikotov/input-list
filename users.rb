@@ -4,12 +4,14 @@ class User
   attr_accessor :email
 end
 
-list = Array.new
+list = []
 
 user = User.new
 
-10.times do || 
+users_numbers = 10
 
+while list.size < users_numbers do 
+	
 puts "Name:"
 user.name = gets.chomp.to_s
 
@@ -25,5 +27,5 @@ list << "#{user.name}, #{user.age}, #{user.email} \n"
 
 end
 
-
 puts list
+
