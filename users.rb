@@ -8,7 +8,7 @@
 
 	#user = User.new
 
-	USERS_NUMBERS = 2
+	USERS_NUMBERS = 10
 
 	while list.size < USERS_NUMBERS do 
 		
