@@ -6,12 +6,14 @@
 
 	list = []
 
-	user = User.new
+	#user = User.new
 
-	users_numbers = 10
+	USERS_NUMBERS = 2
 
-	while list.size < users_numbers do 
+	while list.size < USERS_NUMBERS do 
 		
+		user = User.new
+
 		puts "Name:"
 		user.name = gets.chomp.to_s
 
